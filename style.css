@@ -726,9 +726,16 @@ figcaption {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-    max-width: 630px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.title_presentation {
+    max-width: 630px;
+}
+
+.realisations {
+    max-width: 450px;
 }
 
 h3 {
