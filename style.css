@@ -1,3 +1,8 @@
+:root {
+    --main-color:#C1410A;
+    /*couleur initiale : F3976C;*/
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,6 +96,7 @@ a:hover {
 }
 
 .texture-paper::before {
+    content: "";
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
@@ -518,7 +524,7 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 
 .scrollToTop span {
@@ -647,13 +653,16 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
-
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #FFFFFF;
+}
 .container {
     max-width: 1000px;
 }
@@ -800,15 +809,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: var(--main-color);
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    z-index: 2;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: var(--main-color);
     color: #FFFFFF!important;
 }
 
@@ -826,7 +836,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: var(--main-color)!important;
 }
 
 .ltc-atomic-tangerine:hover {
