@@ -21,6 +21,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #page-loading-blocs-notifaction {
@@ -96,7 +97,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    content: "";
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
