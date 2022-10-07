@@ -1,6 +1,7 @@
 :root {
     --main-color:#C1410A;
     /*couleur initiale : F3976C;*/
+    --main-color-hover: #AE3B09;
 }
 
 body {
@@ -201,7 +202,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: black;
 }
 
 .d-bloc .panel button:hover,
@@ -656,7 +657,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
 }
 a {
     font-family: "helvetica";
@@ -751,7 +752,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    /*color: #333333!important;*/
 }
 
 .med-width-whitespace {
@@ -760,13 +761,13 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/*h1 {
     color: #333333!important;
 }
 
 h4 {
     color: #333333!important;
-}
+}*/
 
 .icons {
     margin-bottom: 14px;
@@ -823,7 +824,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: var(--main-color-hover);
     color: #FFFFFF!important;
 }
 
@@ -840,7 +841,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: var(--main-color-hover);
 }
 
 .icon-dark-slate-blue {
@@ -1020,6 +1021,7 @@ h4 {
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
+        color: #000000;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
