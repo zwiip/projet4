@@ -442,6 +442,14 @@ nav .caret {
     float: right;
 }
 
+.logo_nav {
+    height: 40px;
+}
+
+.logo_header {
+    width: 100px;
+}
+
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
